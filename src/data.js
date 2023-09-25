@@ -1,55 +1,60 @@
-export const projects = [
+export const projects = [  
   {
-    title: "REST API",
-    subtitle: "Django and REST Framework",
+    title: "Netflix Clone",
+    subtitle: "Watch Movies from anywhere",
     description:
-      "I created this framwork to send the data from api and read it in my portfolio.",
-    image: "./Project5.png",
-    link: "https://github.com/Shoib007/portfolioWebApi"
+     "This is a online movie watching application. Contain authentication via django and frontend design via vite.js (React).",
+    image: "./images/netflix.gif",
+    link: "https://github.com/Shoib007/netflix-clone-fullstack"
   },
   {
-    title: "Python Keylogger",
-    subtitle: "Python, Multi Threading",
+    title: "Path Finder",
+    subtitle: "React.js",
     description:
-      "I created this project while I was learning Ethical Hacking in 2021. I'm very pationate about such ideas and that motivate me to think and create it.",
-    image: "https://drive.google.com/uc?id=1Evg9uQhmqP2bx3TIfTARenp0CwvsNpQj",
-    link: "https://github.com/Shoib007/Keylogger-Python",
+      "I created this project to test my DSA Skill. I used React.js, and plane css to create this App. In this Project I used A* Algorithm to find the sortest path.",
+    image: "./images/pathfinder.gif",
+    link: "https://github.com/Shoib007/PathFinder"
+  },
+
+  {
+    title: "Training Management System ",
+    subtitle: "ReactJS and Django API",
+    description:
+      "I inspired to create this application from my current position as Robotics Trainer. There were no sytem to assign a trainer. So I created on",
+    image: "./images//training.gif",
+    link: "https://github.com/Shoib007/trainingManagement"
+  },
+
+  {
+    title: "Palindrome Game",
+    subtitle: "Django + React.js",
+    description:
+      "I created this game to implelemt my DSA and Problem Solving skills.",
+    image: "./images/palendrom.gif",
+    link: "https://github.com/Shoib007/palindrome",
   },
   {
-    title: "My Web Portfoli0",
+    title: "My Web Portfolio",
     subtitle: "React JS and Tailwind",
     description:
       "This is my Web Portfolio based on ReactJS and for Stylling I've used Tailwind.",
-    image: "./project-4.jpg",
+    image: "./images//webportfolio.jpg",
     link: "http://shoibwebportfolio.rf.gd/"
   },
-  {
-    title: "Pure JS Calculator",
-    subtitle: "JavaScript, HTML and CSS",
-    description:
-      "It a fully functional basic calculator support keyboard typing. I created this application when I was learning Web Development. I was a cool project as it ment me to think criticall and logically and learned to good concepts of Class and Objects.",
-    image: "./project-2.jpg",
-    link: "https://github.com/Shoib007/JSCalculator",
-  },
-  {
-    title: "Quiz Application",
-    subtitle: "Pure JS Based Quiz Application",
-    description:
-      "This was one of my very first project based on Web Application back in 2020",
-    image: "./project-3.jpg",
-    link: "https://github.com/Shoib007/online_quiz"
-  },
-  
+
 ];
 
-
 export const skills = [
+  "Amazon Web Serices",
+  "S3 and EC2 Deployment",
   "Python",
-  "JavaScript",
-  "Data Structures & Algo",
-  "ReactJS",
-  "Node",
   "Django",
+  "JavaScript",
+  "TypeScript",
+  "Data Structures & Algo",
+  "React.js",
+  "Next.js",
+  "Node",
   "REST APIs",
   "NoSQL DB (MongoDB)",
   "Ethical Hacking (msfconsole, msfvenom, etc)",

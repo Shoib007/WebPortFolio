@@ -11,7 +11,7 @@ export default function About() {
           </h1>
           <p className="mb-9 leading-relaxed">
           I have been learning Web Development for 3 Years, but never get the chance to work with 
-            some amazing company to work for. Looking for such a company to whom I can add some value and vice versa.
+            some amazing company as a developer. Looking for such a company to whom I can add some value and vice versa.
           </p>
           <div className="flex justify-center">
             <a
@@ -30,7 +30,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./MohdShoib.png"
+            src="./images//MohdShoib.png"
           />
         </div>
       </div>
